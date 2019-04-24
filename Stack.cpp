@@ -122,7 +122,7 @@ for (int i=0;i<=p;i++) {
     d.push(c[i]);
   }
   
-  //Mutiara Widdi Ayunintyas 1817051047
+//Mutiara Widdi Ayunintyas 1817051047
   
 if (c[i]=='+' || c[i]=='-' || c[i]=='*' || c[i]=='/'){
     int q=d.atas()-'0';
@@ -132,7 +132,7 @@ if (c[i]=='+' || c[i]=='-' || c[i]=='*' || c[i]=='/'){
   
   if (c[i]=='+'){
       hasil=y-q;
-      char tot=asil+'0';
+      char tot=hasil+'0';
       d.push(tot);
        }
       else if (c[i]=='-'){
@@ -140,8 +140,21 @@ if (c[i]=='+' || c[i]=='-' || c[i]=='*' || c[i]=='/'){
         char tot=hasil+'0';
         d.pus(tot);
         
+   }
+   else if (c[i]=='*'){
+            hasil=y*q;
+            char tot=hasil+'0';
+            d.push(tot);
+   }
+   else if (c[i]=='/'){
+            hasil=y/q;
+            char tot=asil+'0';
+            d.push(tot);
+   }
+  
 }
-
-        
-  
-  
+}
+char total=d.atas();
+int Akhir=total-'0';
+cout<<"Hasil : "<<Akhir<<endl;
+}
