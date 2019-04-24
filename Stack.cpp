@@ -30,7 +30,7 @@ struct stack
     return top;
   }
             else
-              [
+            {
               top--;
               }
               }
@@ -57,7 +57,7 @@ int Operator (char p)
   if (p=='^')
   return 3;
   else if (p=='*' || p=='/')
-  teturn 2;
+  return 2;
   else if (p=='+' || p=='-')
   return 1;
   else return -1;
