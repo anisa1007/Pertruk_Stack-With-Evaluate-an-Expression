@@ -84,3 +84,7 @@ int main ()
     {
       d.push(b[i]);
     }
+    
+    //Livia Ayu Istoria Hernani 1817051031
+    
+    else if (b
