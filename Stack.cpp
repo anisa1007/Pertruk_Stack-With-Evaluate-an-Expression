@@ -136,9 +136,9 @@ if (c[i]=='+' || c[i]=='-' || c[i]=='*' || c[i]=='/'){
       d.push(tot);
        }
       else if (c[i]=='-'){
-        asil=y-q;
+        hasil=y-q;
         char tot=hasil+'0';
-        d.pus(tot);
+        d.push(tot);
         
    }
    else if (c[i]=='*'){
@@ -148,7 +148,7 @@ if (c[i]=='+' || c[i]=='-' || c[i]=='*' || c[i]=='/'){
    }
    else if (c[i]=='/'){
             hasil=y/q;
-            char tot=asil+'0';
+            char tot=hasil+'0';
             d.push(tot);
    }
   
