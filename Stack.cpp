@@ -105,4 +105,20 @@ int main ()
       while (d.kosong() != 1 && d.atas() != '(' && Operator(b[i]) <= Operator(d.atas())) {
           char x=d.atas();
           d.pop();
+          c+=x;
+        }
+        d.push(b[i]);
+        }
+    }
+  }
+while (d.kosong() != 1) {
+    char x=d.atas();
+    d.pop();
+    c+=x;
+    }
+cout<<"Bentuk Postfix \t: "<<c<<endl<<endl;
+for (int i=0;i<=p;i++) {
+  if (c[i] >= '0' && c[i] <='9') {
+    d.push(c[i]);
+  }
           
