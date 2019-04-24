@@ -73,7 +73,7 @@ int main ()
   cin>>b;
   cout<<endl;
   
-  p=b.lenght();
+  p=b.length();
   for (int i=0; i<p; i++)
   {
     if (b[i] >= '0' && b[i] <= '9')
