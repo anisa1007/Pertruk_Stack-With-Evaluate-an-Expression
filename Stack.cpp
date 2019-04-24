@@ -121,4 +121,27 @@ for (int i=0;i<=p;i++) {
   if (c[i] >= '0' && c[i] <='9') {
     d.push(c[i]);
   }
-          
+  
+  //Mutiara Widdi Ayunintyas 1817051047
+  
+if (c[i]=='+' || c[i]=='-' || c[i]=='*' || c[i]=='/'){
+    int q=d.atas()-'0';
+  d.pop();
+  int y=d.atas()-'0';
+  d.pop();
+  
+  if (c[i]=='+'){
+      hasil=y-q;
+      char tot=asil+'0';
+      d.push(tot);
+       }
+      else if (c[i]=='-'){
+        asil=y-q;
+        char tot=hasil+'0';
+        d.pus(tot);
+        
+}
+
+        
+  
+  
